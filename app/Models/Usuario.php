@@ -16,6 +16,7 @@ class Usuario extends RModel implements AuthenticatableContract
     // Implementação dos métodos da interface Authenticatable
     public function getAuthIdentifierName()
     {
+    
         return 'login';
     }
 
