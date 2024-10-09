@@ -8,7 +8,7 @@ use Illuminate\Auth\Authenticatable;
 class Usuario extends RModel implements AuthenticatableContract
 {
     use Authenticatable;
-
+    
     protected $table = "usuarios";
 
     protected $fillable = ['email', 'login', 'password', 'nome'];
